@@ -4,7 +4,7 @@ import java.util.Scanner;
  *Aplicação para criação de conta em banco
  * ContaBanco
  */
-public class ContaBanco {
+public class ContaTerminal {
     //Declaração do método
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); //Chamando a classe Scanner
@@ -23,7 +23,8 @@ public class ContaBanco {
         double saldo = sc.nextDouble();
 
         sc.close();//fechando o Scanner
-
+        
+        //Imprimindo as informações no terminal
         System.out.println("Olá, " + nomeCliente + " obrigado por criar uma conta na DIO UNITED BANK!");
         System.out.println("sua AGÊNCIA é " + agencia + ", CONTA " + numero); 
         System.out.println("e seu SALDO de R$" + saldo + " já está disponível para saque!");
