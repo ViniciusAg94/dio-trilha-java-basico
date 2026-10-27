@@ -25,3 +25,5 @@ replay_pid*
 tipos-variaveis/.vscode/settings.json
 Metodos/.vscode/settings.json
 ContaBanco/.vscode/settings.json
+controle-fluxo/.vscode/settings.json
+controle-fluxo/.vscode/launch.json
